@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novel Haven</title>
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <style>
+        /* Background image styling */
+        body {
+            background: url('https://img.freepik.com/premium-photo/books-vintage-bindings-lined-shelf-horizontal-frame-with-old-textbooks-hand-drawn_791311-1788.jpg?semt=ais_hybrid') no-repeat center center fixed; 
+            background-size: cover;
+            color: white; 
+            font-family: 'Arial', sans-serif;
+        }
+
+        /* Dark overlay for better readability */
+        .overlay {
+            background: rgba(156, 231, 160, 0.6);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: rgba(245, 133, 245, 0.1);
+            padding: 40px;
+            border-radius: 20px;
+            backdrop-filter: blur(5px);
+        }
+
+        .btn-custom {
+            padding: 10px 20px;
+            border-radius: 25px;
+            font-size: 1.2rem;
+            margin: 10px;
+            text-transform: uppercase;
+        }
+    </style>
+   
+   <!-- bootstrap 5 CDN-->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+       
+   <!-- bootstrap 5 Js bundle CDN-->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+    
+</head>
+<body>
+    <div class="overlay">
+        <h1 class="display-3 fw-bold">Welcome to Novel Haven</h1>
+        <p class="lead">A paradise for Novel lovers! Explore an extensive collection of captivating novels.</p>
+        <div class="container text-center">
+            <a href="login.php" class="btn btn-primary btn-custom">Login</a>
+            <a href="signup.php" class="btn btn-success btn-custom">SignUp</a>
+            <a href="category.php" class="btn btn-info btn-custom">Browse Categories</a>
+            <a href="search.php" class="btn btn-secondary btn-custom">Search Books</a>
+            <a href="store.php" class="btn btn-warning btn-custom">Visit Store</a>
+        </div>
+    </div>
+</body>
+</html>
